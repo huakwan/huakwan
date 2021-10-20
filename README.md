@@ -23,7 +23,7 @@ my := Developer{
     ExperienceTime: 2021-2013, // years
     Quote: "Work Hard ... Bug Harder !!",
     Codes: []string{"Go", "PHP", "Swift", "Java"},
-    Frameworks: map[string][]string{
+    Frameworks: map[string]interface{}{
         "Go": []string{"Gin", "Echo"},
         "PHP": []string{"Laravel", "CodeIgniter"},
     },

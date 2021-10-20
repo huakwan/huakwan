@@ -1,8 +1,8 @@
 # Hi, I'm Kwanpon ! 👋
 
-![visitor-badge](https://visitor-badge.glitch.me/badge?page_id=huakwan.visitors&right_color=orange&left_text=Views)
 ![code](https://img.shields.io/badge/Code-Go%20/%20PHP%20/%20Swift%20(iOS)%20/%20Java%20(Android)-blue.svg)
 ![code](https://img.shields.io/badge/Software%20Engineer-Prodigy9-purple.svg)
+![visitor-badge](https://visitor-badge.glitch.me/badge?page_id=huakwan.visitors&right_color=orange&left_text=Views)
 
 <!-- ![Your Repository’s Stats](https://github-readme-stats.vercel.app/api?username=huakwan&show_icons=true) -->
 
@@ -19,24 +19,18 @@ type Developer struct {
 }
 ```
 ```golang
-var my Developer
-
-my.ExperienceTime = 7
-
-my.Quote = "Work Hard ... Bug Harder !!"
-
-my.Codes = []string{"Go", "PHP", "Swift", "Java"}
-
-my.Frameworks = map[string][]string{
-    "Go": []string{"Gin", "Echo"},
-    "PHP": []string{"Laravel", "CodeIgniter"},
+my := Developer{
+    ExperienceTime: 2021-2013, // years
+    Quote: "Work Hard ... Bug Harder !!",
+    Codes: []string{"Go", "PHP", "Swift", "Java"},
+    Frameworks: map[string][]string{
+        "Go": []string{"Gin", "Echo"},
+        "PHP": []string{"Laravel", "CodeIgniter"},
+    },
+    Tools: []string{"Git", "Docker", "gRPC", "Kafka", "Swagger"},
+    Databases: []string{"MySQL", "PostgreSQL", "MariaDB", "SQLite", "MongoDB"}
 }
-
-my.Tools = []string{"Git", "Docker", "gRPC", "Kafka", "Swagger"}
-
-my.Databases = []string{"MySQL", "PostgreSQL", "MariaDB", "SQLite", "MongoDB"}
-
-fmt.Printf("This is me: %+v\n", my)
+fmt.Printf("Me: %+v\n", my)
 ```
 
 <!--

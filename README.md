@@ -82,6 +82,7 @@ fmt.Printf("Me: %+v\n", my)
 ![](https://img.shields.io/badge/Apps-Jira-blue?style=for-the-badge&logo=jira&logoColor=white&color=76448A&label=)
 ![](https://img.shields.io/badge/Apps-Trello-blue?style=for-the-badge&logo=trello&logoColor=white&color=76448A&label=)
 ![](https://img.shields.io/badge/Apps-Notion-blue?style=for-the-badge&logo=notion&logoColor=white&color=76448A&label=)
+![](https://img.shields.io/badge/Apps-Confluence-blue?style=for-the-badge&logo=confluence&logoColor=white&color=76448A&label=)
 ![](https://img.shields.io/badge/Apps-Google_Drive-blue?style=for-the-badge&logo=google-drive&logoColor=white&color=76448A&label=)
 ![](https://img.shields.io/badge/Apps-MS_Office-blue?style=for-the-badge&logo=microsoftoffice&logoColor=white&color=76448A&label=)
 

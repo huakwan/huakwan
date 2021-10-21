@@ -1,14 +1,19 @@
 # Hi, I'm Kwanpon ! 👋
 
-![code](https://img.shields.io/badge/Code-Golang%20/%20PHP%20/%20Swift%20(iOS)%20/%20Java%20(Android)-blue.svg)
-![code](https://img.shields.io/badge/Software%20Engineer-Prodigy9-purple.svg)
-![visitor-badge](https://visitor-badge.glitch.me/badge?page_id=huakwan.visitors&right_color=orange&left_text=Views)
+<!-- ![code](https://img.shields.io/badge/Code-Golang%20/%20PHP%20/%20Swift%20(iOS)%20/%20Java%20(Android)-blue.svg?style="flat-square") -->
+![](https://img.shields.io/badge/Position-Backend%20Developer-blue.svg?style=flat-square&logo=dark-reader&logoColor=white&labelColor=444&cacheSeconds=3600)
+[![](https://img.shields.io/badge/Company-Prodigy9-purple.svg?style=flat-square&logo=codesandbox&logoColor=white&labelColor=444&cacheSeconds=3600)](https://prodigy9.com)
+![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fhuakwan&count_bg=green&title_bg=%23444&icon=bilibili.svg&icon_color=%23FFFFFF&title=Views&edge_flat=true)
+
+<!-- ![](https://img.shields.io/endpoint?url=https://shields.redsparr0w.com/2473/monday&style=flat-square) -->
+
+<!-- ![visitor-badge](https://visitor-badge.glitch.me/badge?page_id=huakwan.visitors&right_color=orange&left_text=Views) -->
 
 <!-- ![Your Repository’s Stats](https://github-readme-stats.vercel.app/api?username=huakwan&show_icons=true) -->
 
 ### 🎯 A little more about me... ✨
 
-```golang
+```go
 type Developer struct {
     Codes           []string
     Frameworks      map[string]interface{}
@@ -18,18 +23,28 @@ type Developer struct {
     Quote           string
 }
 ```
-```golang
+
+```go
+t := time.Now()
+
 my := Developer{
-    ExperienceTime: 2021-2013, // years
-    Quote: "Work Hard ... Bug Harder !!",
-    Codes: []string{"Golang", "PHP", "Swift", "Java"},
+    ExperienceTime: t.Year()-2013,
+
+    Codes: []string{"Golang", "PHP", "Swift", "Java", "Elixir"},
+
     Frameworks: map[string]interface{}{
-        "Go": []string{"Gin", "Echo"},
-        "PHP": []string{"Laravel", "CodeIgniter"},
+        "Golang": []string{"Gin", "Echo"},
+        "PHP":    []string{"Laravel", "CodeIgniter"},
+        "Elixir": []string{"Phoenix"},
     },
+
     Tools: []string{"Git", "Docker", "gRPC", "Kafka", "Swagger"},
-    Databases: []string{"MySQL", "PostgreSQL", "MariaDB", "SQLite", "MongoDB"}
+
+    Databases: []string{"MySQL", "PostgreSQL", "MariaDB", "MongoDB"}
 }
+
+my.Quote = "Work Hard .. Bug Harder !!"
+
 fmt.Printf("Me: %+v\n", my)
 ```
 ### 👨‍💻 Badges

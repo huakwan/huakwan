@@ -14,7 +14,7 @@ type Developer struct {
     Frameworks      map[string]interface{}
     Tools           []string
     Databases       []string
-    ExperienceTime  int32
+    ExperienceTime  int
     Quote           *string
 }
 ```
@@ -24,17 +24,18 @@ t := time.Now()
 
 my := Developer{
     ExperienceTime: t.Year()-2013,
-    Codes: []string{"Golang", "PHP", "Swift", "Java", "Elixir"},
+    Codes: []string{"Go", "Elixir", "PHP", "Swift", "Java"},
     Frameworks: map[string]interface{}{
-        "Golang": []string{"Gin", "Echo"},
-        "PHP":    []string{"Laravel", "CodeIgniter"},
+        "Go":     []string{"Gin", "Echo"},
         "Elixir": []string{"Phoenix"},
+        "PHP":    []string{"Laravel", "CodeIgniter"},
     },
     Tools: []string{"Git", "Docker", "gRPC", "Kafka", "Swagger"},
-    Databases: []string{"MySQL", "PostgreSQL", "MariaDB", "MongoDB"}
+    Databases: []string{"MySQL", "PostgreSQL", "MariaDB", "MongoDB"},
 }
 
-my.Quote = pointer.ToString("Work Hard .. Bug Harder !!")
+quote := "Work Hard .. Bug Harder !!"
+my.Quote = &quote
 
 fmt.Printf("Me: %+v\n", my)
 ```

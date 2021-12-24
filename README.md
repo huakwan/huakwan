@@ -1,6 +1,6 @@
 # Hi, I'm Kwanpon ! 👋
 
-![position](https://img.shields.io/badge/Position-Golang%20Engineer-blue.svg?style=flat-square&logo=dark-reader&logoColor=white&labelColor=444&cacheSeconds=3600)&nbsp;
+![position](https://img.shields.io/badge/Position-Lead%20Engineer-blue.svg?style=flat-square&logo=dark-reader&logoColor=white&labelColor=444&cacheSeconds=3600)&nbsp;
 [![company](https://img.shields.io/badge/Company-Prodigy9-purple.svg?style=flat-square&logo=hack-the-box&logoColor=white&labelColor=444&cacheSeconds=3600)](https://prodigy9.com)&nbsp;
 ![views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fhuakwan&count_bg=darkorange&title_bg=%23444&icon=bilibili.svg&icon_color=%23FFFFFF&title=Views&edge_flat=true)
 

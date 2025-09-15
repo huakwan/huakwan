@@ -1,7 +1,7 @@
 # Hi, I'm Kwanpon ! 👋
 
 ![position](https://img.shields.io/badge/Position-Lead%20Engineer-blue.svg?style=flat-square&logo=dark-reader&logoColor=white&labelColor=444&cacheSeconds=3600)&nbsp;
-[![company](https://img.shields.io/badge/Company-PRODIGY9-purple.svg?style=flat-square&logo=hack-the-box&logoColor=white&labelColor=444&cacheSeconds=3600)](https://prodigy9.com)&nbsp;
+[![company](https://img.shields.io/badge/Company-PRODIGY9-purple.svg?style=flat-square&logo=hack-the-box&logoColor=white&labelColor=444&cacheSeconds=3600)](https://prodigy9.co)&nbsp;
 
 ### >_ 🎯 A little more about me ... ✨
 
